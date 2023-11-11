@@ -1,108 +1,108 @@
 # React + Vite template
 
-Цей проєкт було створено за допомогою [Create Vite](https://vitejs.dev/). Для
-знайомства і налаштування додаткових можливостей
-[звернися до документації](https://vitejs.dev/guide/).
+This project was created using [Create Vite](https://vitejs.dev/). For
+familiarization and setting of additional features
+[refer to documentation](https://vitejs.dev/guide/).
 
-## Створення репозиторію за шаблоном
+## Creating a repository according to a template
 
-Використовуй цей репозиторій організації GoIT як шаблон для створення
-репозиторію свого проєкту. Для цього натисни на кнопку `"Use this template"` і
-обери опцію `"Create a new repository"`, як показано на зображенні.
+Use this GoIT organization repository as a template to build
+repository of your project. To do this, click on the ``Use this template'' button and
+select the ``Create a new repository'' option as shown in the image.
 
 ![Creating repo from a template step 1](./src/assets/template-step-1.png)
 
-На наступному кроці відкриється сторінка створення нового репозиторію. Заповни
-поле його імені, переконайся що репозиторій публічний, після чого натисни кнопку
+In the next step, the page for creating a new repository will open. fill in
+its name field, make sure that the repository is public, and then click the button
 `"Create repository from template"`.
 
 ![Creating repo from a template step 2](./src/assets/template-step-2.png)
 
-Після того як репозиторій буде створено, необхідно перейти в налаштування
-створеного репозиторію на вкладку `Settings` > `Actions` > `General` як показано
-на зображенні.
+After the repository is created, you need to go to the settings
+created repository to `Settings` > `Actions` > `General` tab as shown
+in the image.
 
 ![Settings GitHub Actions permissions step 1](./src/assets/gh-actions-perm-1.png)
 
-Проскроливши сторінку до самого кінця, у секції `"Workflow permissions"` вибери
-опцію `"Read and write permissions"` і постав галочку в чекбоксі. Це необхідно
-для автоматизації процесу деплою проєкту.
+After scrolling the page to the very end, in the ``Workflow permissions'' section, select
+option `"Read and write permissions"` and check the checkbox. It is necessary
+to automate the project deployment process.
 
 ![Settings GitHub Actions permissions step 2](./src/assets/gh-actions-perm-2.png)
 
-Тепер у тебе є особистий репозиторій проєкту, зі структурою файлів і папок
-репозиторія-шаблону. Далі працюй з ним як з будь-яким іншим особистим
-репозиторієм, клонуй його собі на комп'ютер, пиши код, роби комміти і відправляй
-їх на GitHub.
+Now you have a personal project repository with a file and folder structure
+template repository. Then work with it as with any other personal one
+repository, clone it to your computer, write code, commit and send
+them on GitHub.
 
-## Підготовка до роботи
+## Preparation for work
 
-1. Переконайся, що на комп'ютері встановлена LTS-версія Node.js.
-   [Скачай і встанови](https://nodejs.org/en/) її якщо необхідно.
-2. Встановіть базові залежності проекту командою `npm install`.
-3. Запустіть режим розробки, виконавши команду `npm run dev`.
-4. Перейди в браузері за адресою, що зазначено в терміналі.
+1. Make sure that the LTS version of Node.js is installed on your computer.
+    [Download and install](https://nodejs.org/en/) it if necessary.
+2. Install the basic dependencies of the project with the `npm install` command.
+3. Start development mode by running `npm run dev` command.
+4. Go to the address specified in the terminal in the browser.
 
-## Деплой
+## Deployment
 
-Продакшн версія проєкту буде автоматично збиратися і деплоїтися на GitHub Pages,
-у гілку `gh-pages`, щоразу, коли оновлюється гілка `main`. Наприклад, після
-прямого пушу або прийнятого пул-реквесту. Для цього необхідно у файлі
-`vite.config.js` відредагувати поле `base`, замінивши `react_vite` на свою назву
-репозиторію `"/your_repo_name"`, і відправити зміни на GitHub.
+The production version of the project will be automatically assembled and deployed on GitHub Pages,
+to the `gh-pages` branch, whenever the `main` branch is updated. For example, after
+direct push or accepted pull request. For this it is necessary in the file
+`vite.config.js` edit the `base` field, replacing `react_vite` with its name
+repository `"/your_repo_name"` and push the changes to GitHub.
 
-Далі необхідно зайти в налаштування GitHub-репозиторію (`Settings` > `Pages`) і
-виставити роздачу продакшн версії файлів із папки `/root` гілки `gh-pages`, якщо
-це не було зроблено автоматично.
+Next, you need to go to the settings of the GitHub repository (`Settings` > `Pages`) and
+expose distribution of the production version of files from the `/root' folder of the `gh-pages' branch, if
+it was not done automatically.
 
 ![GitHub Pages settings](./src/assets/repo-settings.png)
 
-### Статус деплоя
+### Deployment status
 
-Статус деплою крайнього коміту відображається іконкою біля його ідентифікатора.
+The deployment status of the extreme commit is displayed by an icon next to its identifier.
 
-- **Жовтий колір** - виконується збірка і деплой проєкту.
-- **Зелений колір** - деплой завершився успішно.
-- **Червоний колір** - під час збирання або деплою сталася помилка.
+- **Yellow color** - project assembly and deployment is in progress.
+- **Green color** - deployment completed successfully.
+- **Red color** - an error occurred during assembly or deployment.
 
-Детальнішу інформацію про статус можна подивитися, клікнувши на іконку, і в
-випадаючому вікні перейти за посиланням `Details`.
+You can see more detailed information about the status by clicking on the icon, and in
+in the drop-down window, go to the ``Details'' link.
 
 ![Deployment status](./src/assets/deploy-status.png)
 
-### Жива сторінка
+### Live page
 
-Через якийсь час, зазвичай кілька хвилин, живу сторінку можна буде подивитися за
-адресою, вказаною в налаштуваннях GitHub-репозиторію (`Settings` > `Pages`).
+After some time, usually a few minutes, the live page can be viewed
+the address specified in the GitHub repository settings (`Settings` > `Pages`).
 
 ![GitHub-pages URL](./src/assets/gh-pages-url.png)
 
-Якщо відкривається порожня сторінка, переконайся що у вкладці `Console` немає
-помилок пов'язаних із неправильними шляхами до CSS і JS файлів проекту
-(**404**). Швидше за все найімовірніше, у тебе неправильне значення поля `base`
-у файлі `vite.config.js`.
+If an empty page opens, make sure that there is no ``Console'' tab
+errors related to incorrect paths to the CSS and JS files of the project
+(**404**). Most likely, you have the wrong value of the `base` field
+in the file `vite.config.js`.
 
-### Маршрутизація
+### Routing
 
-Якщо додаток використовує бібліотеку `react-router-dom` для маршрутизації,
-необхідно додатково налаштувати компонент `<BrowserRouter>`, передавши в пропе
-`basename` точну назву твого репозиторію. Слеш на початку рядка обов'язковий.
+If the application uses the `react-router-dom' library for routing,
+it is necessary to additionally configure the `<BrowserRouter>` component by passing in prope
+`basename` the exact name of your repository. A slash at the beginning of a line is mandatory.
 
 ```jsx
 <BrowserRouter basename="/your_repo_name">
-  <App />
+   <App />
 </BrowserRouter>
 ```
-### Додавання змінних в  .env
-Для зберігання конфігураційних даних, таких як API ключі, адреси серверів, порти та інші змінні використовуйте файл `.env`. Для цього необхідно з назви файлу `.env.template` видалити зайві ".template",після чого файл відповідатиме умовам файлу `.ignore` і буде зберігатися лише локально, не публікуючись на віддаленому репозиторії з метою безпеки. Задля використання змінних на GitHub-pages усі змінні, передбачені файлом .env, слід додати до файлу `.github/workflows/deploy.yml`, а також до налаштувань репозиторію. Для цього слід перейти (`Settings` > `Secrets and variables` > `Actions`)
+### Adding variables to .env
+Use `.env` file to store configuration data such as API keys, server addresses, ports and other variables. To do this, it is necessary to remove the extra ".template" from the name of the `.env.template` file, after which the file will meet the conditions of the `.ignore` file and will be stored only locally, without being published to a remote repository for security purposes. To use variables on GitHub-pages, all variables provided by the .env file should be added to the `.github/workflows/deploy.yml` file as well as to the repository settings. To do this, go to (`Settings` > `Secrets and variables` > `Actions`)
 
-![Add enviroments from .env](./src/assets/secrets.png)
+![Add environments from .env](./src/assets/secrets.png)
 
-## Як це працює
+## How it works
 
-1. Після кожного пушу в гілку `main` GitHub-репозиторію, запускається
-   спеціальний скрипт (GitHub Action) з файлу `.github/workflows/deploy.yml`.
-2. Усі файли репозиторію копіюються на сервер, де проєкт ініціалізується і
-   проходить збірку перед деплоєм. 3 Якщо всі кроки пройшли успішно, зібрана
-   продакшн-версія файлів проєкту відправляється в гілку `gh-pages`. В іншому
-   випадку, в логах виконання скрипта буде вказано в чому проблема.
+1. After each push to the `main` branch of the GitHub repository, it starts
+    a special script (GitHub Action) from the `.github/workflows/deploy.yml` file.
+2. All repository files are copied to the server where the project is initialized and
+    passes assembly before deployment. 3 If all steps were successful, collected
+    the production version of the project files is sent to the `gh-pages' branch. In another
+    in this case, the script execution logs will indicate what the problem is.
