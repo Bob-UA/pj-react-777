@@ -11,17 +11,17 @@ import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import React from 'react';
 import './index.css';
-import '../node_modules/swiper/modules'; // Імпорт стилів для сітки
-import '../node_modules/swiper/modules/grid.css'; // Імпорт основних стилів Swiper
-import '../node_modules/swiper/modules/pagination.css'; // Імпорт стилів для пагінації
-import '../node_modules/swiper/swiper-bundle.css'; // Опціонально, імпорт стилів зі збірки
+import '../node_modules/swiper/modules'; 
+import '../node_modules/swiper/modules/grid.css';
+import '../node_modules/swiper/modules/pagination.css';
+import '../node_modules/swiper/swiper-bundle.css';
 import './index.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <Provider store={store}>
       <PersistGate loading={null} persistor={persistor}>
-        <BrowserRouter basename="/power-pulse">
+        <BrowserRouter basename="/pj-react-777">
           <ThemeProvider theme={glodalColor}>
             <GlobalStyle />
             <App />
