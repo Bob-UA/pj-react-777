@@ -209,7 +209,7 @@ export const ContainerBloodSex = styled.div`
 
 export const RadioContainer = styled.div`
   display: flex;
-  gap: 8px;
+  gap: 12px;
   margin: 0;
 
   /* max-width: 300px; */
@@ -283,7 +283,7 @@ export const InputSex = styled.input`
 
 export const RadioLabel = styled.span`
   position: relative;
-  margin-left: 32px;
+  padding-left: 26px;
   font-size: 14px;
   line-height: 1.2;
   letter-spacing: 0em;

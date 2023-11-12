@@ -163,7 +163,7 @@ const ProfileSettingsForm = () => {
             </BoxItemInputs>
           </ContainerItemInputs>
         </BoxHeightWeightBirthday>
-        <BloodRadio>Blood</BloodRadio>
+        <BloodRadio>Blood group</BloodRadio>
         <ContainerBloodSex>
           <RadioContainer>
             <RadioWrapper>
@@ -178,7 +178,7 @@ const ProfileSettingsForm = () => {
                   value={1}
                 />
                 <RadioCheckmark></RadioCheckmark>
-                <RadioLabel>1</RadioLabel>
+                <RadioLabel>O &#40;1&#41;</RadioLabel>
               </RadioButton>
             </RadioWrapper>
             <RadioWrapper>
@@ -193,7 +193,7 @@ const ProfileSettingsForm = () => {
                   value={2}
                 />
                 <RadioCheckmark></RadioCheckmark>
-                <RadioLabel>2</RadioLabel>
+                <RadioLabel>A &#40;2&#41;</RadioLabel>
               </RadioButton>
             </RadioWrapper>
             <RadioWrapper>
@@ -208,7 +208,7 @@ const ProfileSettingsForm = () => {
                   value={3}
                 />
                 <RadioCheckmark></RadioCheckmark>
-                <RadioLabel>3</RadioLabel>
+                <RadioLabel>B &#40;3&#41;</RadioLabel>
               </RadioButton>
             </RadioWrapper>
             <RadioWrapper>
@@ -223,7 +223,7 @@ const ProfileSettingsForm = () => {
                   value={4}
                 />
                 <RadioCheckmark></RadioCheckmark>
-                <RadioLabel>4</RadioLabel>
+                <RadioLabel>AB &#40;4&#41;</RadioLabel>
               </RadioButton>
             </RadioWrapper>
           </RadioContainer>

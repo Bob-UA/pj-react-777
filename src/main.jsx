@@ -7,7 +7,6 @@ import { glodalColor } from './Styled/GlobalColor.jsx';
 import { Provider } from 'react-redux';
 import { persistor, store } from './redux/store.js';
 import { PersistGate } from 'redux-persist/integration/react';
-import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import React from 'react';
 import './index.css';
@@ -16,6 +15,10 @@ import '../node_modules/swiper/modules/grid.css';
 import '../node_modules/swiper/modules/pagination.css';
 import '../node_modules/swiper/swiper-bundle.css';
 import './index.css';
+import 'react-toastify/dist/ReactToastify.minimal.css';
+import { StyledContainer } from './Styled/ToastStyles.jsx';
+
+
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -25,8 +28,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
           <ThemeProvider theme={glodalColor}>
             <GlobalStyle />
             <App />
-            <ToastContainer
-              theme="colored"
+            <StyledContainer
               hideProgressBar
               position="top-center"
             />
