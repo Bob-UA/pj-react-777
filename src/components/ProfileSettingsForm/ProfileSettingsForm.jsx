@@ -35,6 +35,8 @@ import { schema } from './schema/Schema';
 import { toast } from 'react-toastify';
 import { Icon } from '../UserCards/UserCards.styled';
 import sprite from '../../sprite/sprite.svg';
+import { CustomDatePick } from '../CustomDatePick/CustomDatePick';
+import { parseISO } from 'date-fns';
 
 const ProfileSettingsForm = () => {
   const dispatch = useDispatch();
@@ -50,12 +52,13 @@ const ProfileSettingsForm = () => {
     birthday,
   } = useSelector(authSelectors.getUserMetricData);
 
+  const onHandleDate = (date) => {
+    const isoDate = date.toISOString();
+    formik.setFieldValue('birthday', formatDateString(isoDate));
+  }
+
   function formatDateString(dateString) {
-    const date = new Date(dateString);
-    const year = date.getFullYear();
-    const month = String(date.getMonth() + 1).padStart(2, '0');
-    const day = String(date.getDate()).padStart(2, '0');
-    return `${year}-${month}-${day}`;
+    return dateString.slice(0, 10); 
   }
 
   const formattedDate = formatDateString(birthday);
@@ -85,7 +88,7 @@ const ProfileSettingsForm = () => {
       }
     },
   });
-
+  console.log(Date.now());
   return (
     <div>
       <FormProfile onSubmit={formik.handleSubmit}>
@@ -141,19 +144,11 @@ const ProfileSettingsForm = () => {
             <BoxItemInputs>
               <StyledCalendarContainer>
                 <BoxInputData>
-                  <DatePicker
+                  <CustomDatePick
                     selected={
-                      birthday ? new Date(formik.values.birthday) : Date.now()
+                      birthday ? parseISO(formik.values.birthday) : Date.now()
                     }
-                    onChange={(date) => {
-                      formik.setFieldValue('birthday', formatDateString(date));
-                    }}
-                    customInput={<CustomDatePickerInput />}
-                    showYearDropdown
-                    yearDropdownItemNumber={1}
-                    dateFormat={'dd.MM.yyyy'}
-                    calendarStartDay={1}
-                    formatWeekDay={(day) => day.substr(0, 1)}
+                    onChange={onHandleDate}
                   />
                   <Icon width={18} height={18} className="stroke-withe">
                     <use href={`${sprite}#icon-calendar`}></use>
@@ -163,7 +158,7 @@ const ProfileSettingsForm = () => {
             </BoxItemInputs>
           </ContainerItemInputs>
         </BoxHeightWeightBirthday>
-        <BloodRadio>Blood group</BloodRadio>
+        <BloodRadio>Blood</BloodRadio>
         <ContainerBloodSex>
           <RadioContainer>
             <RadioWrapper>
@@ -178,7 +173,7 @@ const ProfileSettingsForm = () => {
                   value={1}
                 />
                 <RadioCheckmark></RadioCheckmark>
-                <RadioLabel>O &#40;1&#41;</RadioLabel>
+                <RadioLabel>1</RadioLabel>
               </RadioButton>
             </RadioWrapper>
             <RadioWrapper>
@@ -193,7 +188,7 @@ const ProfileSettingsForm = () => {
                   value={2}
                 />
                 <RadioCheckmark></RadioCheckmark>
-                <RadioLabel>A &#40;2&#41;</RadioLabel>
+                <RadioLabel>2</RadioLabel>
               </RadioButton>
             </RadioWrapper>
             <RadioWrapper>
@@ -208,7 +203,7 @@ const ProfileSettingsForm = () => {
                   value={3}
                 />
                 <RadioCheckmark></RadioCheckmark>
-                <RadioLabel>B &#40;3&#41;</RadioLabel>
+                <RadioLabel>3</RadioLabel>
               </RadioButton>
             </RadioWrapper>
             <RadioWrapper>
@@ -223,7 +218,7 @@ const ProfileSettingsForm = () => {
                   value={4}
                 />
                 <RadioCheckmark></RadioCheckmark>
-                <RadioLabel>AB &#40;4&#41;</RadioLabel>
+                <RadioLabel>4</RadioLabel>
               </RadioButton>
             </RadioWrapper>
           </RadioContainer>

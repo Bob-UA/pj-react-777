@@ -209,7 +209,7 @@ export const ContainerBloodSex = styled.div`
 
 export const RadioContainer = styled.div`
   display: flex;
-  gap: 12px;
+  gap: 8px;
   margin: 0;
 
   /* max-width: 300px; */
@@ -270,9 +270,6 @@ export const RadioCheckmark = styled.span`
 export const InputSex = styled.input`
   display: none;
   &:checked + ${RadioCheckmark} {
-    /* display: flex;
-        justify-content: center;
-        align-items: center; */
     border-color: ${glodalColor.bgSecondary};
     &::before {
       background-color: ${glodalColor.bgSecondary};
@@ -283,7 +280,7 @@ export const InputSex = styled.input`
 
 export const RadioLabel = styled.span`
   position: relative;
-  padding-left: 26px;
+  margin-left: 32px;
   font-size: 14px;
   line-height: 1.2;
   letter-spacing: 0em;
