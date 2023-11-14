@@ -1,4 +1,4 @@
-import{s as n,g as d,j as i}from"./index-1780ae76.js";import{s as p}from"./sprite-446b26f4.js";const T=e=>e.statistics.data,a=n.div`
+import{s as n,g as d,j as i}from"./index-b6b5cdf2.js";import{s as p}from"./sprite-1c89eefa.js";const T=e=>e.statistics.data,a=n.div`
   display: flex;
   padding-left: 101px;
   align-items: center;
