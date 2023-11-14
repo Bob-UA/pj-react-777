@@ -4,7 +4,6 @@ import {
   BloodRadio,
   BoxBasicInfo,
   BoxHeightWeightBirthday,
-  BoxInputData,
   BoxItemInputs,
   BoxRadioSex,
   ContainerBloodSex,
@@ -21,6 +20,8 @@ import {
   RadioLabel,
   RadioLabelActive,
   RadioWrapper,
+  LabelBirthdate,
+  DatePickerContainer,
 } from './ProfileSettingsForm.styled';
 import {
   StyledCalendarContainer,
@@ -92,6 +93,7 @@ const ProfileSettingsForm = () => {
         <LabelProfile htmlFor="name">Basic info</LabelProfile>
         <BoxBasicInfo>
           <InputProfile
+            className='name'
             name="name"
             type="text"
             id="name"
@@ -103,7 +105,7 @@ const ProfileSettingsForm = () => {
         <BoxHeightWeightBirthday>
           <ContainerItemInputs>
             <BoxItemInputs>
-              <LabelProfile htmlFor="Height">Height</LabelProfile>
+              <LabelProfile htmlFor="Height">Height &#40;cm&#41;</LabelProfile>
               <InputProfile
                 name="height"
                 type="number"
@@ -114,7 +116,7 @@ const ProfileSettingsForm = () => {
             </BoxItemInputs>
             <BoxItemInputs>
               <LabelProfile htmlFor="currentWeight">
-                Current Weight
+                Current Weight &#40;kg&#41;
               </LabelProfile>
               <InputProfile
                 name="currentWeight"
@@ -128,7 +130,7 @@ const ProfileSettingsForm = () => {
           <ContainerItemInputs>
             <BoxItemInputs>
               <LabelProfile htmlFor="desiredWeight">
-                Desired Weight
+                Desired Weight &#40;kg&#41;
               </LabelProfile>
               <InputProfile
                 name="desiredWeight"
@@ -140,7 +142,8 @@ const ProfileSettingsForm = () => {
             </BoxItemInputs>
             <BoxItemInputs>
               <StyledCalendarContainer>
-                <BoxInputData>
+                <LabelBirthdate>Birthdate</LabelBirthdate>
+                <DatePickerContainer>
                   <CustomDatePicker
                     selected={
                       birthday ? parseISO(formik.values.birthday) : Date.now()
@@ -150,12 +153,12 @@ const ProfileSettingsForm = () => {
                   <Icon width={18} height={18} className="stroke-withe">
                     <use href={`${sprite}#icon-calendar`}></use>
                   </Icon>
-                </BoxInputData>
+                </DatePickerContainer>
               </StyledCalendarContainer>
             </BoxItemInputs>
           </ContainerItemInputs>
         </BoxHeightWeightBirthday>
-        <BloodRadio>Blood</BloodRadio>
+        <BloodRadio>Blood group</BloodRadio>
         <ContainerBloodSex>
           <RadioContainer>
             <RadioWrapper>
@@ -170,7 +173,7 @@ const ProfileSettingsForm = () => {
                   value={1}
                 />
                 <RadioCheckmark></RadioCheckmark>
-                <RadioLabel>1</RadioLabel>
+                <RadioLabel>O</RadioLabel>
               </RadioButton>
             </RadioWrapper>
             <RadioWrapper>
@@ -185,7 +188,7 @@ const ProfileSettingsForm = () => {
                   value={2}
                 />
                 <RadioCheckmark></RadioCheckmark>
-                <RadioLabel>2</RadioLabel>
+                <RadioLabel>A</RadioLabel>
               </RadioButton>
             </RadioWrapper>
             <RadioWrapper>
@@ -200,7 +203,7 @@ const ProfileSettingsForm = () => {
                   value={3}
                 />
                 <RadioCheckmark></RadioCheckmark>
-                <RadioLabel>3</RadioLabel>
+                <RadioLabel>B</RadioLabel>
               </RadioButton>
             </RadioWrapper>
             <RadioWrapper>
@@ -215,7 +218,7 @@ const ProfileSettingsForm = () => {
                   value={4}
                 />
                 <RadioCheckmark></RadioCheckmark>
-                <RadioLabel>4</RadioLabel>
+                <RadioLabel>AB</RadioLabel>
               </RadioButton>
             </RadioWrapper>
           </RadioContainer>

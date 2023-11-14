@@ -36,6 +36,7 @@ export const CustomDatePicker = ({ selected, onChange }) => {
 
   return (
     <DatePicker
+      shouldCloseOnSelect={true}
       selected={selected}
       dateFormat={'dd.MM.yyyy'}
       customInput={<CustomDatePickerInput />}
@@ -64,17 +65,6 @@ export const CustomDatePicker = ({ selected, onChange }) => {
             {'<'}
           </MonthBtn>
           <CalendarSelect
-            value={date.getFullYear()}
-            onChange={({ target: { value } }) => changeYear(value)}
-          >
-            {years.map((option) => (
-              <option key={option} value={option}>
-                {option}
-              </option>
-            ))}
-          </CalendarSelect>
-
-          <CalendarSelect
             value={months[date.getMonth()]}
             onChange={({ target: { value } }) =>
               changeMonth(months.indexOf(value))
@@ -86,7 +76,16 @@ export const CustomDatePicker = ({ selected, onChange }) => {
               </option>
             ))}
           </CalendarSelect>
-
+          <CalendarSelect
+            value={date.getFullYear()}
+            onChange={({ target: { value } }) => changeYear(value)}
+          >
+            {years.map((option) => (
+              <option key={option} value={option}>
+                {option}
+              </option>
+            ))}
+          </CalendarSelect>
           <MonthBtn
             onClick={increaseMonth}
             disabled={nextMonthButtonDisabled}
