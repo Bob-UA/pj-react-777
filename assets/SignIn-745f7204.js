@@ -1,4 +1,4 @@
-import{L as b,e as f,b as w,d as S,j as e,o as y,r as C,f as z}from"./index-31009fc2.js";import{n as i}from"./emotion-styled.browser.esm-b9bf8ace.js";import{b as _,a as I,c as B,d as L,T as $}from"./Title-cf09a70c.js";import{b as E,a as F}from"./main_bg_desktop-12717d49.js";import{C as T}from"./ContainerStyled-bb0b3bf9.js";import{u as V,B as G}from"./Button-a815c828.js";import{a as P}from"./schemas-acc73607.js";import{L as D}from"./Loader-d4b18b3f.js";import{s as c}from"./sprite-63b6d247.js";import{g as R,V as Q,C as A}from"./CaloriesContainer-6e6b24de.js";import"./index.esm-9587c63e.js";import"./Hourglass-7e58ae9a.js";const M=i.section`
+import{L as b,e as f,b as w,d as S,j as e,o as y,r as C,f as z}from"./index-c09e4bb8.js";import{n as i}from"./emotion-styled.browser.esm-01af0747.js";import{b as _,a as B,c as I,d as $,T as E}from"./Title-6a616157.js";import{b as L,a as F}from"./main_bg_desktop-12717d49.js";import{C as T}from"./ContainerStyled-bb0b3bf9.js";import{u as V,B as P}from"./Button-3dd6e7f6.js";import{a as D}from"./schemas-29fda9cc.js";import{L as R}from"./Loader-8cfbc2bc.js";import{s as m}from"./sprite-3ca393e6.js";import{g as Q,V as G,C as M}from"./CaloriesContainer-51d65cc1.js";import"./index.esm-c0cff38f.js";import"./Hourglass-ee26f6cc.js";const U=i.section`
   padding-top: 127px;
   padding-bottom: 40px;
   background: linear-gradient(168deg, #040404 14.75%, rgba(4, 4, 4, 0) 52.97%),
@@ -12,7 +12,7 @@ import{L as b,e as f,b as w,d as S,j as e,o as y,r as C,f as z}from"./index-3100
     screen and (min-resolution: 2dppx) {
     background: linear-gradient(168deg, #040404 14.75%, rgba(4, 4, 4, 0) 52.97%),
       linear-gradient(73deg, #040404 6.11%, rgba(4, 4, 4, 0) 66.68%),
-      url(${I});
+      url(${B});
     background-repeat: no-repeat;
     background-position: calc(50% + 38.5px) calc(50% + 120.5px);
     background-size: 298px;
@@ -21,7 +21,7 @@ import{L as b,e as f,b as w,d as S,j as e,o as y,r as C,f as z}from"./index-3100
   @media screen and (min-width: 768px) {
     background: linear-gradient(170deg, #040404 3.66%, rgba(4, 4, 4, 0) 19.15%),
       linear-gradient(73deg, #040404 6.11%, rgba(4, 4, 4, 0) 66.68%),
-      url(${B});
+      url(${I});
     background-position: calc(50% + 165.5px) calc(50% + 65.5px);
     background-repeat: no-repeat;
     background-size: 437px;
@@ -37,7 +37,7 @@ import{L as b,e as f,b as w,d as S,j as e,o as y,r as C,f as z}from"./index-3100
           rgba(4, 4, 4, 0) 19.15%
         ),
         linear-gradient(73deg, #040404 6.11%, rgba(4, 4, 4, 0) 66.68%),
-        url(${L});
+        url(${$});
       background-position: calc(50% + 165.5px) calc(50% + 65.5px);
       background-repeat: no-repeat;
       background-size: 437px;
@@ -49,7 +49,7 @@ import{L as b,e as f,b as w,d as S,j as e,o as y,r as C,f as z}from"./index-3100
           #040404 -2.45%,
           rgba(4, 4, 4, 0) 68.17%
         ),
-        url(${E});
+        url(${L});
       padding-top: 200px;
       padding-bottom: 210px;
       background-repeat: no-repeat;
@@ -71,10 +71,10 @@ import{L as b,e as f,b as w,d as S,j as e,o as y,r as C,f as z}from"./index-3100
       background-size: 670px;
     }
   }
-`,N=i.div`
+`,W=i.div`
   ${T}
   position: relative;
-`,U=i.p`
+`,q=i.p`
   font-size: 14px;
   line-height: 1.29;
   color: rgba(239, 237, 232, 0.3);
@@ -86,7 +86,7 @@ import{L as b,e as f,b as w,d as S,j as e,o as y,r as C,f as z}from"./index-3100
     line-height: 1.5;
     margin-top: 16px;
   }
-`,W=i.div`
+`,A=i.div`
   display: flex;
   font-size: 12px;
   line-height: 1.5;
@@ -94,22 +94,22 @@ import{L as b,e as f,b as w,d as S,j as e,o as y,r as C,f as z}from"./index-3100
   @media screen and (min-width: 768px) {
     padding-left: 15px;
   }
-`,q=i.p`
+`,H=i.p`
   color: rgba(239, 237, 232, 0.3);
-`,H=i(b)`
+`,J=i(b)`
   margin-left: 4px;
   color: #efede8;
   text-decoration: underline;
-`,J=i.form`
+`,K=i.form`
   margin-top: 28px;
 
   @media screen and (min-width: 768px) {
     margin-top: 32px;
     width: 404px;
   }
-`,K=i.div`
+`,N=i.div`
   padding-right: 40px;
-`,l=i.input`
+`,c=i.input`
   outline: 0;
   outline-offset: 0;
   color: #efede8;
@@ -136,7 +136,7 @@ import{L as b,e as f,b as w,d as S,j as e,o as y,r as C,f as z}from"./index-3100
       margin-top: 20px;
     }
   }
-`;l.defaultProps={theme:{main:"rgba(239, 237, 232, 0.3)"}};const h=i.label`
+`;c.defaultProps={theme:{main:"rgba(239, 237, 232, 0.3)"}};const h=i.label`
   margin: -1px;
   padding: 0;
   position: absolute;
@@ -152,10 +152,10 @@ import{L as b,e as f,b as w,d as S,j as e,o as y,r as C,f as z}from"./index-3100
   @media screen and (min-width: 768px) {
     padding-top: 64px;
   }
-`,X=i.div``,u=i.div`
+`;i.div``;const u=i.div`
   display: inline-flex;
   margin-top: 4px;
-`,Y=i(b)`
+`;i(b)`
   margin-left: 14px;
   position: relative;
   display: inline-block;
@@ -179,7 +179,7 @@ import{L as b,e as f,b as w,d as S,j as e,o as y,r as C,f as z}from"./index-3100
     font-size: 20px;
     line-height: 1.2;
   }
-`,Z=i.svg`
+`;i.svg`
   position: absolute;
   right: 19px;
   width: 20px;
@@ -191,20 +191,20 @@ import{L as b,e as f,b as w,d as S,j as e,o as y,r as C,f as z}from"./index-3100
       height: 28px;
     }
   }
-`,ee=i.svg`
+`;const X=i.svg`
   margin-right: 4px;
   width: 16px;
   height: 16px;
-`,ie=i.p`
+`,Y=i.p`
   color: rgba(216, 0, 39, 1);
   font-size: 12px;
   line-height: 1.5;
-`,ne=i.svg`
+`,Z=i.svg`
   margin-right: 4px;
   width: 16px;
   height: 16px;
-`,re=i.p`
+`,ee=i.p`
   color: rgba(60, 191, 97, 1);
   font-size: 12px;
   line-height: 1.5;
-`,oe=()=>{const r=f(),t=w(S.getIsLoading),d=async(a,v)=>{r(y.logIn(a)),v.resetForm()},{values:s,errors:n,touched:o,isSubmitting:k,handleChange:g,handleBlur:x,handleSubmit:j}=V({initialValues:{email:"",password:""},validationSchema:P,onSubmit:d}),p=a=>e.jsxs(u,{children:[e.jsx(ee,{children:e.jsx("use",{href:`${c}#icon-error`})}),e.jsx(ie,{children:a})]}),m=a=>e.jsxs(u,{children:[e.jsx(ne,{children:e.jsx("use",{href:`${c}#icon-successes`})}),e.jsxs(re,{children:["Success ",a]})]});return e.jsxs(J,{onSubmit:j,children:[e.jsxs(K,{children:[n.name&&o.name&&p(n.name),e.jsx(h,{htmlFor:"email",children:"Email"}),e.jsx(l,{value:s.email,onChange:g,type:"email",id:"email",name:"email",placeholder:"Email",onBlur:x,theme:o.email&&(n.email?{main:"rgba(216, 0, 39, 1)"}:{main:"rgba(60, 191, 97, 1)"})}),o.email&&(n.email?p(n.email):m("email")),e.jsx(h,{htmlFor:"password",children:"Password"}),e.jsx(l,{value:s.password,onChange:g,type:"password",id:"password",name:"password",placeholder:"Password",onBlur:x,theme:o.password&&(n.password?{main:"rgba(216, 0, 39, 1)"}:{main:"rgba(60, 191, 97, 1)"})}),o.password&&(n.password?p(n.password):m("password"))]}),e.jsxs(O,{children:[t?e.jsx(D,{cls:"yellowBtn"}):e.jsx(G,{disabled:k,type:"submit",text:"Sign In"}),t?e.jsx(e.Fragment,{}):e.jsx(X,{children:e.jsxs(Y,{to:"https://power-pulse-rh13.onrender.com/api/users/googleAuth",children:["Login",e.jsx(Z,{className:"setG",children:e.jsx("use",{href:`${c}#icon-google`})})]})})]})]})},be=()=>{const r=w(R),t=r.totalBurnedCalories.toString().slice(0,2),d=r.totalBurnedCalories.toString().slice(2,6),s=r.exercisesQuantity,n=f();return C.useEffect(()=>{!r.totalBurnedCalories&&n(z())},[]),e.jsx(M,{children:e.jsxs(N,{children:[e.jsx($,{text:"Sign In",cls:"sign-page"}),e.jsx(U,{children:"Welcome! Please enter your credentials to login to the platform:"}),e.jsx(oe,{}),e.jsxs(W,{children:[e.jsx(q,{children:"Don't have an account?"}),e.jsx(H,{to:"/signup",children:"Sign Up"})]}),e.jsx(Q,{cls:"sign-in",video:s}),e.jsx(A,{val1:t,val2:d})]})})};export{be as default};
+`,ie=()=>{const r=f(),s=w(S.getIsLoading),d=async(o,v)=>{r(y.logIn(o)),v.resetForm()},{values:t,errors:n,touched:a,isSubmitting:k,handleChange:l,handleBlur:g,handleSubmit:j}=V({initialValues:{email:"",password:""},validationSchema:D,onSubmit:d}),p=o=>e.jsxs(u,{children:[e.jsx(X,{children:e.jsx("use",{href:`${m}#icon-error`})}),e.jsx(Y,{children:o})]}),x=o=>e.jsxs(u,{children:[e.jsx(Z,{children:e.jsx("use",{href:`${m}#icon-successes`})}),e.jsxs(ee,{children:["Success ",o]})]});return e.jsxs(K,{onSubmit:j,children:[e.jsxs(N,{children:[n.name&&a.name&&p(n.name),e.jsx(h,{htmlFor:"email",children:"Email"}),e.jsx(c,{value:t.email,onChange:l,type:"email",id:"email",name:"email",placeholder:"Email",onBlur:g,theme:a.email&&(n.email?{main:"rgba(216, 0, 39, 1)"}:{main:"rgba(60, 191, 97, 1)"})}),a.email&&(n.email?p(n.email):x("email")),e.jsx(h,{htmlFor:"password",children:"Password"}),e.jsx(c,{value:t.password,onChange:l,type:"password",id:"password",name:"password",placeholder:"Password",onBlur:g,theme:a.password&&(n.password?{main:"rgba(216, 0, 39, 1)"}:{main:"rgba(60, 191, 97, 1)"})}),a.password&&(n.password?p(n.password):x("password"))]}),e.jsx(O,{children:s?e.jsx(R,{cls:"yellowBtn"}):e.jsx(P,{disabled:k,type:"submit",text:"Sign In"})})]})},me=()=>{const r=w(Q),s=r.totalBurnedCalories.toString().slice(0,2),d=r.totalBurnedCalories.toString().slice(2,6),t=r.exercisesQuantity,n=f();return C.useEffect(()=>{!r.totalBurnedCalories&&n(z())},[]),e.jsx(U,{children:e.jsxs(W,{children:[e.jsx(E,{text:"Sign In",cls:"sign-page"}),e.jsx(q,{children:"Welcome! Please enter your credentials to login to the platform:"}),e.jsx(ie,{}),e.jsxs(A,{children:[e.jsx(H,{children:"Don't have an account?"}),e.jsx(J,{to:"/signup",children:"Sign Up"})]}),e.jsx(G,{cls:"sign-in",video:t}),e.jsx(M,{val1:s,val2:d})]})})};export{me as default};

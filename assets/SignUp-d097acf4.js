@@ -1,4 +1,4 @@
-import{L as b,g as S,e as f,b as w,d as y,j as e,o as z,r as C,f as _}from"./index-31009fc2.js";import{n as i}from"./emotion-styled.browser.esm-b9bf8ace.js";import{b as B,a as $,c as L,d as E,T as F}from"./Title-cf09a70c.js";import{b as T,a as I}from"./main_bg_desktop-12717d49.js";import{C as U}from"./ContainerStyled-bb0b3bf9.js";import{u as V,B as G}from"./Button-a815c828.js";import{s as R}from"./schemas-acc73607.js";import{L as N}from"./Loader-d4b18b3f.js";import{s as m}from"./sprite-63b6d247.js";import{g as P,V as A,C as D}from"./CaloriesContainer-6e6b24de.js";import"./index.esm-9587c63e.js";import"./Hourglass-7e58ae9a.js";const Q=i.section`
+import{L as b,g as y,e as f,b as w,d as S,j as e,o as z,r as C,f as _}from"./index-c09e4bb8.js";import{n as i}from"./emotion-styled.browser.esm-01af0747.js";import{b as B,a as $,c as E,d as L,T}from"./Title-6a616157.js";import{b as F,a as I}from"./main_bg_desktop-12717d49.js";import{C as U}from"./ContainerStyled-bb0b3bf9.js";import{u as V,B as R}from"./Button-3dd6e7f6.js";import{s as P}from"./schemas-29fda9cc.js";import{L as D}from"./Loader-8cfbc2bc.js";import{s as h}from"./sprite-3ca393e6.js";import{g as N,V as Q,C as A}from"./CaloriesContainer-51d65cc1.js";import"./index.esm-c0cff38f.js";import"./Hourglass-ee26f6cc.js";const G=i.section`
   padding-top: 127px;
   padding-bottom: 40px;
   background: linear-gradient(168deg, #040404 14.75%, rgba(4, 4, 4, 0) 52.97%),
@@ -21,7 +21,7 @@ import{L as b,g as S,e as f,b as w,d as y,j as e,o as z,r as C,f as _}from"./ind
   @media screen and (min-width: 768px) {
     background: linear-gradient(170deg, #040404 3.66%, rgba(4, 4, 4, 0) 19.15%),
       linear-gradient(73deg, #040404 6.11%, rgba(4, 4, 4, 0) 66.68%),
-      url(${L});
+      url(${E});
       padding-bottom: 48px;
       padding-top: 189px;
     background-position: calc(50% + 165.5px) calc(50% + 65.5px);
@@ -37,7 +37,7 @@ import{L as b,g as S,e as f,b as w,d as y,j as e,o as z,r as C,f as _}from"./ind
           rgba(4, 4, 4, 0) 19.15%
         ),
         linear-gradient(73deg, #040404 6.11%, rgba(4, 4, 4, 0) 66.68%),
-        url(${E});
+        url(${L});
       background-position: calc(50% + 165.5px) calc(50% + 65.5px);
       background-repeat: no-repeat;
       background-size: 437px;
@@ -49,7 +49,7 @@ import{L as b,g as S,e as f,b as w,d as y,j as e,o as z,r as C,f as _}from"./ind
           #040404 -2.45%,
           rgba(4, 4, 4, 0) 68.17%
         ),
-        url(${T});
+        url(${F});
       padding-top: 200px;
       padding-bottom: 114px;
       background-repeat: no-repeat;
@@ -155,7 +155,7 @@ import{L as b,g as S,e as f,b as w,d as y,j as e,o as z,r as C,f as _}from"./ind
     line-height: 1.5;
   }
 `;i.svg`
-  fill: ${S.withe};
+  fill: ${y.withe};
   width: 12px;
   height: 12px;
   @media screen and (min-width: 768px) {
@@ -188,7 +188,7 @@ import{L as b,g as S,e as f,b as w,d as y,j as e,o as z,r as C,f as _}from"./ind
   }
 `,W=i.div`
   padding-right: 60px;
-`,s=i.input`
+`,d=i.input`
   outline: 0;
   outline-offset: 0;
   color: #efede8;
@@ -215,7 +215,7 @@ import{L as b,g as S,e as f,b as w,d as y,j as e,o as z,r as C,f as _}from"./ind
       margin-top: 20px;
     }
   }
-`;s.defaultProps={theme:{main:"rgba(239, 237, 232, 0.3)"}};const h=i.label`
+`;d.defaultProps={theme:{main:"rgba(239, 237, 232, 0.3)"}};const m=i.label`
   margin: -1px;
   padding: 0;
   position: absolute;
@@ -229,7 +229,7 @@ import{L as b,g as S,e as f,b as w,d as y,j as e,o as z,r as C,f as _}from"./ind
   @media screen and (min-width: 768px) {
     padding-top: 64px;
   }
-`,Y=i(b)`
+`;i(b)`
   margin-left: 14px;
   position: relative;
   display: inline-block;
@@ -253,7 +253,7 @@ import{L as b,g as S,e as f,b as w,d as y,j as e,o as z,r as C,f as _}from"./ind
     font-size: 20px;
     line-height: 1.2;
   }
-`,Z=i.svg`
+`;i.svg`
   position: absolute;
   right: 19px;
   width: 20px;
@@ -265,23 +265,23 @@ import{L as b,g as S,e as f,b as w,d as y,j as e,o as z,r as C,f as _}from"./ind
       height: 28px;
     }
   }
-`,u=i.div`
+`;const u=i.div`
   display: inline-flex;
   margin-top: 4px;
+`,Y=i.svg`
+  margin-right: 4px;
+  width: 16px;
+  height: 16px;
+`,Z=i.p`
+  color: rgba(216, 0, 39, 1);
+  font-size: 12px;
+  line-height: 1.5;
 `,ee=i.svg`
   margin-right: 4px;
   width: 16px;
   height: 16px;
 `,ie=i.p`
-  color: rgba(216, 0, 39, 1);
-  font-size: 12px;
-  line-height: 1.5;
-`,ne=i.svg`
-  margin-right: 4px;
-  width: 16px;
-  height: 16px;
-`,ae=i.p`
   color: rgba(60, 191, 97, 1);
   font-size: 12px;
   line-height: 1.5;
-`,re=()=>{const a=f(),d=w(y.getIsLoading),p=(t,v)=>{a(z.register(t)),v.resetForm()},{values:o,errors:n,touched:r,isSubmitting:k,handleChange:c,handleBlur:l,handleSubmit:j}=V({initialValues:{name:"",email:"",password:""},validationSchema:R,onSubmit:p}),g=t=>e.jsxs(u,{children:[" ",e.jsx(ee,{children:e.jsx("use",{href:`${m}#icon-error`})}),e.jsx(ie,{children:t})]}),x=t=>e.jsxs(u,{children:[e.jsx(ne,{children:e.jsx("use",{href:`${m}#icon-successes`})}),e.jsxs(ae,{children:["Success ",t]})]});return e.jsxs(O,{onSubmit:j,children:[e.jsxs(W,{children:[e.jsx(h,{htmlFor:"name",children:"Name"}),e.jsx(s,{value:o.name,onChange:c,type:"text",id:"name",name:"name",placeholder:"Name",onBlur:l,theme:r.name&&(n.name?{main:"rgba(216, 0, 39, 1)"}:{main:"rgba(60, 191, 97, 1)"})}),r.name&&(n.name?g(n.name):x("name"))," ",e.jsx(h,{htmlFor:"email",children:"Email"}),e.jsx(s,{value:o.email,onChange:c,type:"email",id:"email",name:"email",placeholder:"Email",onBlur:l,theme:r.email&&(n.email?{main:"rgba(216, 0, 39, 1)"}:{main:"rgba(60, 191, 97, 1)"})}),r.email&&(n.email?g(n.email):x("email"))," ",e.jsx(h,{htmlFor:"password",children:"Password"}),e.jsx(s,{value:o.password,onChange:c,type:"password",id:"password",name:"password",placeholder:"Password",onBlur:l,theme:r.password&&(n.password?{main:"rgba(216, 0, 39, 1)"}:{main:"rgba(60, 191, 97, 1)"})}),r.password&&(n.password?g(n.password):x("password"))," "]}),e.jsxs(X,{children:[d?e.jsx(N,{cls:"yellowBtn"}):e.jsx(G,{disabled:k,type:"submit",text:"Sign Up"}),d?e.jsx(e.Fragment,{}):e.jsxs(Y,{to:"https://power-pulse-rh13.onrender.com/api/users/googleAuth",children:["Login",e.jsx(Z,{className:"setG",children:e.jsx("use",{href:`${m}#icon-google`})})]})]})]})},be=()=>{const a=w(P),d=a.totalBurnedCalories.toString().slice(0,2),p=a.totalBurnedCalories.toString().slice(2,6),o=a.exercisesQuantity,n=f();return C.useEffect(()=>{!a.totalBurnedCalories&&n(_())},[]),e.jsx(Q,{children:e.jsxs(M,{children:[e.jsx(F,{text:"Sign Up",cls:"sign-page"}),e.jsx(q,{children:"Thank you for your interest in our platform. To complete the registration process, please provide us with the following information."}),e.jsx(re,{}),e.jsxs(H,{children:[e.jsx(J,{children:"Already have account?"}),e.jsx(K,{to:"/signin",children:"Sign In"})]}),e.jsx(A,{cls:"sign-up",video:o}),e.jsx(D,{val1:d,val2:p})]})})};export{be as default};
+`,ne=()=>{const a=f(),s=w(S.getIsLoading),p=(o,v)=>{a(z.register(o)),v.resetForm()},{values:t,errors:n,touched:r,isSubmitting:k,handleChange:c,handleBlur:l,handleSubmit:j}=V({initialValues:{name:"",email:"",password:""},validationSchema:P,onSubmit:p}),g=o=>e.jsxs(u,{children:[" ",e.jsx(Y,{children:e.jsx("use",{href:`${h}#icon-error`})}),e.jsx(Z,{children:o})]}),x=o=>e.jsxs(u,{children:[e.jsx(ee,{children:e.jsx("use",{href:`${h}#icon-successes`})}),e.jsxs(ie,{children:["Success ",o]})]});return e.jsxs(O,{onSubmit:j,children:[e.jsxs(W,{children:[e.jsx(m,{htmlFor:"name",children:"Name"}),e.jsx(d,{value:t.name,onChange:c,type:"text",id:"name",name:"name",placeholder:"Name",onBlur:l,theme:r.name&&(n.name?{main:"rgba(216, 0, 39, 1)"}:{main:"rgba(60, 191, 97, 1)"})}),r.name&&(n.name?g(n.name):x("name"))," ",e.jsx(m,{htmlFor:"email",children:"Email"}),e.jsx(d,{value:t.email,onChange:c,type:"email",id:"email",name:"email",placeholder:"Email",onBlur:l,theme:r.email&&(n.email?{main:"rgba(216, 0, 39, 1)"}:{main:"rgba(60, 191, 97, 1)"})}),r.email&&(n.email?g(n.email):x("email"))," ",e.jsx(m,{htmlFor:"password",children:"Password"}),e.jsx(d,{value:t.password,onChange:c,type:"password",id:"password",name:"password",placeholder:"Password",onBlur:l,theme:r.password&&(n.password?{main:"rgba(216, 0, 39, 1)"}:{main:"rgba(60, 191, 97, 1)"})}),r.password&&(n.password?g(n.password):x("password"))," "]}),e.jsx(X,{children:s?e.jsx(D,{cls:"yellowBtn"}):e.jsx(R,{disabled:k,type:"submit",text:"Sign Up"})})]})},he=()=>{const a=w(N),s=a.totalBurnedCalories.toString().slice(0,2),p=a.totalBurnedCalories.toString().slice(2,6),t=a.exercisesQuantity,n=f();return C.useEffect(()=>{!a.totalBurnedCalories&&n(_())},[]),e.jsx(G,{children:e.jsxs(M,{children:[e.jsx(T,{text:"Sign Up",cls:"sign-page"}),e.jsx(q,{children:"Thank you for your interest in our platform. To complete the registration process, please provide us with the following information."}),e.jsx(ne,{}),e.jsxs(H,{children:[e.jsx(J,{children:"Already have account?"}),e.jsx(K,{to:"/signin",children:"Sign In"})]}),e.jsx(Q,{cls:"sign-up",video:t}),e.jsx(A,{val1:s,val2:p})]})})};export{he as default};
