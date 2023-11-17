@@ -9,8 +9,6 @@ import {
   Label,
   SuccessIcon,
   Success,
-  GoogleSignLink,
-  GoogleIcon,
   InputsContainer,
 } from './SignUpForm.styled';
 import { signUpSchema } from '../../schemas/schemas';
@@ -140,12 +138,6 @@ const SignUpForm = () => {
         ) : (
           <Button disabled={isSubmitting} type="submit" text={'Sign Up'} />
         )}
-        {isLoading ?<></> : <GoogleSignLink to="https://power-pulse-rh13.onrender.com/api/users/googleAuth">
-          Login
-          <GoogleIcon className="setG">
-            <use href={`${sprite}#icon-google`}></use>
-          </GoogleIcon>
-        </GoogleSignLink>}
       </ButtonContainer>
     </Form>
   );
