@@ -1,4 +1,4 @@
-import{s as i,g as n,j as e,e as L,b as y,d as w,o as q,Q as I,r as T}from"./index-392f0027.js";import{u as Y,B as J}from"./Button-de0fd66c.js";import{t as _,C as G,S as Q,p as K}from"./DaySwitch.styled-3a56353f.js";import{c as X,a as N,b as A,d as Z}from"./index.esm-6c323b68.js";import{s as g}from"./sprite-df4cac40.js";import{C as ee}from"./ContainerStyled-bb0b3bf9.js";import"./createClass-13320b2e.js";const ie=i.form`
+import{s as i,g as n,j as e,e as L,b as y,d as w,o as q,Q as I,r as T}from"./index-1c8b82d9.js";import{u as Y,B as J}from"./Button-278e6327.js";import{t as _,C as G,S as Q,p as K}from"./DaySwitch.styled-73979d5f.js";import{c as X,a as N,b as A,d as Z}from"./index.esm-2f06e477.js";import{s as g}from"./sprite-84d0ac05.js";import{C as ee}from"./ContainerStyled-bb0b3bf9.js";import"./createClass-8ffa86e4.js";const ie=i.form`
   padding-top: 18px;
 
   @media screen and (min-width: 768px) {
@@ -270,6 +270,7 @@ position: relative;
     height: 150px;
   }
 `,me=i.img`
+  object-fit: cover;
   width: 100%;
   height: 100%;
 `,ge=i.div`

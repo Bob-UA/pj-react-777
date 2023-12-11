@@ -1,4 +1,4 @@
-import{s as $,g as _n,N as Lo,L as Ro,c as To,a as ht,r as gt,j as S,u as Eo,b as bo,d as So,e as Ep,o as Op,O as Pp}from"./index-392f0027.js";import{C as Bp}from"./ContainerStyled-bb0b3bf9.js";import{s as fe}from"./sprite-df4cac40.js";import{B as Ui}from"./ButtonLink-525f9a38.js";const Oo=$.nav`
+import{s as $,g as _n,N as Lo,L as Ro,c as To,a as ht,r as gt,j as S,u as Eo,b as bo,d as So,e as Ep,o as Op,O as Pp}from"./index-1c8b82d9.js";import{C as Bp}from"./ContainerStyled-bb0b3bf9.js";import{s as fe}from"./sprite-84d0ac05.js";import{B as Ui}from"./ButtonLink-7cb5d184.js";const Oo=$.nav`
   ${Bp}
   display: flex;
   position: absolute;
@@ -56,6 +56,7 @@ import{s as $,g as _n,N as Lo,L as Ro,c as To,a as ht,r as gt,j as S,u as Eo,b a
     }
   }
 `,Np=$.img`
+  object-fit: cover;
   width: 100%;
   height: 100%;
 `,$p=$.button`
