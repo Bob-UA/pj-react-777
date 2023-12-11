@@ -1,4 +1,4 @@
-import{s as i,g as n,j as e,e as L,b as y,d as w,o as q,Q as I,r as T}from"./index-c09e4bb8.js";import{u as Y,B as J}from"./Button-3dd6e7f6.js";import{t as _,C as G,S as Q,p as K}from"./DaySwitch.styled-7e9cccac.js";import{c as X,a as N,b as A,d as Z}from"./index.esm-c0cff38f.js";import{s as g}from"./sprite-3ca393e6.js";import{C as ee}from"./ContainerStyled-bb0b3bf9.js";import"./createClass-c7c97631.js";const ie=i.form`
+import{s as i,g as n,j as e,e as L,b as y,d as w,o as q,Q as I,r as T}from"./index-392f0027.js";import{u as Y,B as J}from"./Button-de0fd66c.js";import{t as _,C as G,S as Q,p as K}from"./DaySwitch.styled-3a56353f.js";import{c as X,a as N,b as A,d as Z}from"./index.esm-6c323b68.js";import{s as g}from"./sprite-df4cac40.js";import{C as ee}from"./ContainerStyled-bb0b3bf9.js";import"./createClass-13320b2e.js";const ie=i.form`
   padding-top: 18px;
 
   @media screen and (min-width: 768px) {
@@ -417,9 +417,6 @@ position: relative;
     line-height: 1.5;
   }
 `,u=i.svg`
-  position: absolute;
-  top: 14px;
-  right: 14px;
   pointer-events: none;
   &.orange {
     fill: ${n.secondaryOrange};
